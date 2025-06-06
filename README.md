@@ -44,6 +44,6 @@ The video can be played using VLC, Windows Media Player, or any player that supp
 ```
 
 🧠 Forensics Insights
-- JPEG signatures (FFD8 ... FFD9) are reliably recoverable from raw packet data.
+- JPEG signatures (FFD8 ... FFD9) are recoverable from raw packet data.
 - MJPEG streams over HTTP often include full-frame images.
-- PCAPs are a goldmine for file carving if disk forensics isn't an option.
+- PCAPs can be utilised for file carving if disk forensics isn't an option.
