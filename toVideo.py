@@ -3,7 +3,7 @@ import os
 from glob import glob
 
 #sort and get all .jpg files
-images = sorted(glob("*,jpg"))
+images = sorted(glob("*.jpg"))
 
 if not images:
     print("No .jpg files found")
